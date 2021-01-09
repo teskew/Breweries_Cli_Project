@@ -14,7 +14,7 @@ class  CLI
         puts " Hello! Can I help you? What  is your name please :"
         puts ""
 
-         API.get_data
+        # API.get_data
      
        greet(user_input)
 

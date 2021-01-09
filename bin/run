@@ -2,6 +2,6 @@
  #shiping line utiizing the ruby code application
 require_relative '../lib/environment.rb'
   #it bundele all files and application
-CLI.new.start
+#CLI.new.start
 #cli = CLI.new
 # cli.start
