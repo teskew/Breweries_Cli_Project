@@ -1,13 +1,13 @@
-# frozen_string_literal: true
-#require'pry'
+# the environment it bundle all the files application
+
 require_relative "./breweries_cli/version"
 
 require 'bundler'
 Bundler.require
 require 'json'
-puts "Can i came here"
-#require_relative "./breweries_cli/cli"
-#require_relative "./breweries_cli/api"
-#require_relative "./breweries_cli/breweries"
+
+require_relative "./breweries_cli/cli"
+require_relative "./breweries_cli/api"
+require_relative "./breweries_cli/breweries"
 #module Breweries_cli
 #end

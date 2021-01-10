@@ -31,7 +31,7 @@ class  CLI
         puts "'yes' to display the list 'no' to exit "
         menu
     end 
-            # print to out a list of all brewerie ""
+            # print to out a list of all breweries ""
     def breweries_list 
         Brewery.all.each.with_index(1) do |brewery, i|
             puts ""

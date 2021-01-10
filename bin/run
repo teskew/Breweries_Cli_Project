@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
  #shiping line utiizing the ruby code application
+ # run the entry point of the app
 require_relative '../lib/environment.rb'
   #it bundele all files and application
-#CLI.new.start
+CLI.new.start
 #cli = CLI.new
 # cli.start
